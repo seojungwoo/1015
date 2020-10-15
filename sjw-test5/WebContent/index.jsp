@@ -13,7 +13,7 @@
 <body>
 
 <div class="container">
-step1 step2 step3 step4 step5 step8 step13
+step1 step2 step3 step4 step5 step6
 
 </div>
 </body>
