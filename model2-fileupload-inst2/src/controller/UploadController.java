@@ -24,7 +24,8 @@ public class UploadController implements Controller {
 		System.out.println("key:"+key+" value:"+map.get(key));
 	}
 	//Workspace 업로드 경로 : 개발시 경로 
-	String workspacePath="C:\\Users\\lyric\\git\\1015\\model2-fileupload-inst2\\WebContent\\upload\\";
+	//String workspacePath="C:\\Users\\lyric\\git\\1015\\model2-fileupload-inst2\\WebContent\\upload\\";
+	String workspacePath=PathInfo.workspacePath;
 	//WAS 업로드 경로 : 개발완료후에는 이 경로로 변경 
 	//	String savePath = request.getServletContext().getRealPath("upload");		 
 	//	System.out.println(savePath);
